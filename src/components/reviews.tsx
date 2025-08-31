@@ -13,13 +13,13 @@ export default function Reviews({ data }: { data: Review[] }) {
       <div className="w-full h-full border border-gray-300 rounded-lg shadow-md p-4 flex flex-col gap-4 content-center items-center justify-center justify-items-center ">
         <div className="w-full h-fit flex flex-col gap-2 content-center items-center justify-center justify-items-center" >
           <div className="size-15 rounded-full font-bold text-3xl text-center text-white bg-blue-600 flex content-center items-center justify-center justify-items-center" >
-            {review.name.slice(0, 1).toUpperCase()}
+            {review?.name ? review.name.slice(0, 1).toUpperCase() : 'U'}
           </div>
           <p className="w-full h-fit font-semibold text-center leading-none text-sm md:text-base lg:text-lg ">
-            {review.name}
+            {review?.name || 'Anonymous'}
           </p>
           <p className="w-full h-fit text-center leading-none text-sm md:text-base ">
-            {review.date}
+            {review?.date || 'No date available'}
           </p>
         </div>
         <div className="size-5">
@@ -32,14 +32,14 @@ export default function Reviews({ data }: { data: Review[] }) {
           </svg>
         </div>
         <div className="w-full h-fit flex content-center items-center justify-center justify-items-center">
-          {Array(Number(review.rating)).fill(0).map((_, i) => (
+          {Array(Number(review?.rating || 0)).fill(0).map((_, i) => (
             <StarIcon key={`star-${i}`} className="size-6" style={{ fill: "yellow", strokeWidth: 1 }} />
           ))}
         </div>
         <div className="w-full h-full border border-gray-300 rounded-lg overflow-hidden">
           <div className="w-full h-full p-4 overflow-y-auto">
             <p className="w-full h-fit text-sm md:text-base">
-              {review.review}
+              {review?.review || 'No review available'}
             </p>
           </div>
         </div>

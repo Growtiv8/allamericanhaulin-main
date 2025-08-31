@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///C:/Dev/allamericanhaulin-main/src/app/not-found.tsx"],"sourcesContent":["\"use server\";\r\nimport \"server-only\";\r\nimport { ReactNode } from \"react\";\r\n\r\n\r\nexport default async function NotFound(): Promise<ReactNode> {\r\n  return (\r\n    <main>\r\n      <div className=\"bg-blue-600 text-white flex flex-col min-h-screen content-center items-center justify-center justify-items-center text-center\">\r\n        <p className=\"font-semibold text-xl\">\r\n          404\r\n        </p>\r\n        <h1 className=\"font-semibold text-4xl \">\r\n          {`Page not found`}\r\n        </h1>\r\n        <p className=\"text-xl py-20\">\r\n          {`Sorry, we couldn't find the page you're looking for.`}\r\n        </p>\r\n      </div>\r\n    </main>\r\n  )\r\n}\r\n"],"names":[],"mappings":";;;;;;AACA;;;;;;AAIe,eAAe;IAC5B,qBACE,8OAAC;kBACC,cAAA,8OAAC;YAAI,WAAU;;8BACb,8OAAC;oBAAE,WAAU;8BAAwB;;;;;;8BAGrC,8OAAC;oBAAG,WAAU;8BACX,CAAC,cAAc,CAAC;;;;;;8BAEnB,8OAAC;oBAAE,WAAU;8BACV,CAAC,oDAAoD,CAAC;;;;;;;;;;;;;;;;;AAKjE;;;IAhB8B;;AAAA,+OAAA","debugId":null}}]
+}

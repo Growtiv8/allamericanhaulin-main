@@ -1,0 +1,93 @@
+{
+  "node": {
+    "00b14017a7894e88c97b52aa3fd2fe73b727f999b2": {
+      "workers": {
+        "app/services/page": {
+          "moduleId": "[project]/.next-internal/server/app/services/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/not-found.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/services/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/components/container.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/components/footer.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/app/services/page.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/services/page": "rsc"
+      }
+    },
+    "40627b40545a0e1103a28fbf1e8fb8e161ef7f17cd": {
+      "workers": {
+        "app/services/page": {
+          "moduleId": "[project]/.next-internal/server/app/services/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/not-found.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/services/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/components/container.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/components/footer.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/app/services/page.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/services/page": "rsc"
+      }
+    },
+    "00c4214499e146c09eff8f9a7a4f34f5bbf11b8b22": {
+      "workers": {
+        "app/services/page": {
+          "moduleId": "[project]/.next-internal/server/app/services/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/not-found.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/services/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/components/container.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/components/footer.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/app/services/page.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/services/page": "rsc"
+      }
+    },
+    "40c7c387d7d1123898e2fa47d60940130c21f2db68": {
+      "workers": {
+        "app/services/page": {
+          "moduleId": "[project]/.next-internal/server/app/services/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/not-found.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/services/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/components/container.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/components/footer.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/app/services/page.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/services/page": "rsc"
+      }
+    },
+    "409fb4a0ef91fb9de777ccecc98eda696d6e0301e7": {
+      "workers": {
+        "app/services/page": {
+          "moduleId": "[project]/.next-internal/server/app/services/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/not-found.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/services/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/components/container.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/components/footer.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/app/services/page.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/services/page": "rsc"
+      }
+    },
+    "00a8e731717ff5544efe624c59f92f7f7c260b8fd4": {
+      "workers": {
+        "app/services/page": {
+          "moduleId": "[project]/.next-internal/server/app/services/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/not-found.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/services/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/components/container.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/components/footer.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/app/services/page.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/services/page": "rsc"
+      }
+    },
+    "0034a072d27fd374727dccf36e2fac7927d85f5d2b": {
+      "workers": {
+        "app/services/page": {
+          "moduleId": "[project]/.next-internal/server/app/services/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/not-found.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/services/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/components/container.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/components/footer.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/app/services/page.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/services/page": "rsc"
+      }
+    },
+    "00ff3f00ff71558ad02076eafb46db61c793014887": {
+      "workers": {
+        "app/services/page": {
+          "moduleId": "[project]/.next-internal/server/app/services/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/not-found.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/services/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/components/container.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/components/footer.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/app/services/page.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/services/page": "rsc"
+      }
+    }
+  },
+  "edge": {}
+}

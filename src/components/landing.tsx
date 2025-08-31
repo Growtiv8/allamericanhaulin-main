@@ -16,7 +16,10 @@ import ContactForm from "./contact-form";
 
 
 export default async function Landing({ locationName, phoneNumber }: { locationName: string, phoneNumber: string }) {
-  const reviews = ((await findData({ db_name: "allamericanhaulin", co_name: "reviews", filter: {}, options: {} })) as Review[]).sort((a, b) => b.date.localeCompare(a.date)).map(v => ({ ...v, date: format(new Date(v.date), 'MMM d, yyy') }));
+  const reviews = ((await findData({ db_name: "allamericanhaulin", co_name: "reviews", filter: {}, options: {} })) as Review[])
+    .filter(review => review && review.date) // Filter out reviews without dates
+    .sort((a, b) => (b.date || '').localeCompare(a.date || '')) // Safe comparison with fallback
+    .map(v => ({ ...v, date: format(new Date(v.date), 'MMM d, yyy') }));
   return (
     <div className="w-full h-full flex flex-col gap-16 pb-16 content-center items-center justify-center justify-items-center md:gap-32 md:pb-32">
 

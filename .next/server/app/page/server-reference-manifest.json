@@ -1,0 +1,192 @@
+{
+  "node": {
+    "00b14017a7894e88c97b52aa3fd2fe73b727f999b2": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/not-found.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/page.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/components/container.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/components/landing.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/components/footer.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/components/services.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE7 => \"[project]/src/components/photos.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE8 => \"[project]/src/components/founders.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE9 => \"[project]/src/components/junk.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE10 => \"[project]/src/components/recycling.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE11 => \"[project]/src/components/process.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE12 => \"[project]/src/components/phone.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE13 => \"[project]/src/components/rating.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE14 => \"[project]/src/actions/form-server-actions.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      }
+    },
+    "40627b40545a0e1103a28fbf1e8fb8e161ef7f17cd": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/not-found.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/page.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/components/container.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/components/landing.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/components/footer.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/components/services.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE7 => \"[project]/src/components/photos.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE8 => \"[project]/src/components/founders.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE9 => \"[project]/src/components/junk.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE10 => \"[project]/src/components/recycling.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE11 => \"[project]/src/components/process.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE12 => \"[project]/src/components/phone.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE13 => \"[project]/src/components/rating.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE14 => \"[project]/src/actions/form-server-actions.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      }
+    },
+    "00c4214499e146c09eff8f9a7a4f34f5bbf11b8b22": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/not-found.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/page.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/components/container.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/components/landing.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/components/footer.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/components/services.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE7 => \"[project]/src/components/photos.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE8 => \"[project]/src/components/founders.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE9 => \"[project]/src/components/junk.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE10 => \"[project]/src/components/recycling.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE11 => \"[project]/src/components/process.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE12 => \"[project]/src/components/phone.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE13 => \"[project]/src/components/rating.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE14 => \"[project]/src/actions/form-server-actions.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      }
+    },
+    "00818b4779d81fb9cc6cfe21e98c1586a46c65cfcc": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/not-found.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/page.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/components/container.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/components/landing.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/components/footer.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/components/services.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE7 => \"[project]/src/components/photos.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE8 => \"[project]/src/components/founders.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE9 => \"[project]/src/components/junk.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE10 => \"[project]/src/components/recycling.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE11 => \"[project]/src/components/process.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE12 => \"[project]/src/components/phone.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE13 => \"[project]/src/components/rating.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE14 => \"[project]/src/actions/form-server-actions.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      }
+    },
+    "00faf2c7013ff55308bea294e85a75803300bbe6ea": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/not-found.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/page.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/components/container.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/components/landing.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/components/footer.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/components/services.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE7 => \"[project]/src/components/photos.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE8 => \"[project]/src/components/founders.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE9 => \"[project]/src/components/junk.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE10 => \"[project]/src/components/recycling.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE11 => \"[project]/src/components/process.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE12 => \"[project]/src/components/phone.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE13 => \"[project]/src/components/rating.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE14 => \"[project]/src/actions/form-server-actions.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      }
+    },
+    "409fb4a0ef91fb9de777ccecc98eda696d6e0301e7": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/not-found.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/page.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/components/container.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/components/landing.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/components/footer.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/components/services.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE7 => \"[project]/src/components/photos.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE8 => \"[project]/src/components/founders.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE9 => \"[project]/src/components/junk.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE10 => \"[project]/src/components/recycling.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE11 => \"[project]/src/components/process.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE12 => \"[project]/src/components/phone.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE13 => \"[project]/src/components/rating.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE14 => \"[project]/src/actions/form-server-actions.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      }
+    },
+    "405c4297da0cd965d8e5b3dd908362a230150cd45e": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/not-found.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/page.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/components/container.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/components/landing.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/components/footer.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/components/services.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE7 => \"[project]/src/components/photos.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE8 => \"[project]/src/components/founders.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE9 => \"[project]/src/components/junk.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE10 => \"[project]/src/components/recycling.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE11 => \"[project]/src/components/process.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE12 => \"[project]/src/components/phone.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE13 => \"[project]/src/components/rating.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE14 => \"[project]/src/actions/form-server-actions.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      }
+    },
+    "00a8e731717ff5544efe624c59f92f7f7c260b8fd4": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/not-found.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/page.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/components/container.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/components/landing.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/components/footer.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/components/services.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE7 => \"[project]/src/components/photos.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE8 => \"[project]/src/components/founders.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE9 => \"[project]/src/components/junk.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE10 => \"[project]/src/components/recycling.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE11 => \"[project]/src/components/process.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE12 => \"[project]/src/components/phone.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE13 => \"[project]/src/components/rating.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE14 => \"[project]/src/actions/form-server-actions.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      }
+    },
+    "40b37ed31d2451939228fdebc7aacb0e7f40bdc6a1": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/not-found.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/page.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/components/container.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/components/landing.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/components/footer.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/components/services.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE7 => \"[project]/src/components/photos.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE8 => \"[project]/src/components/founders.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE9 => \"[project]/src/components/junk.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE10 => \"[project]/src/components/recycling.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE11 => \"[project]/src/components/process.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE12 => \"[project]/src/components/phone.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE13 => \"[project]/src/components/rating.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE14 => \"[project]/src/actions/form-server-actions.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      }
+    },
+    "0057014eae1bbfcf23947f8863be5201120e85e5b6": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/not-found.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/page.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/components/container.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/components/landing.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/components/footer.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/components/services.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE7 => \"[project]/src/components/photos.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE8 => \"[project]/src/components/founders.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE9 => \"[project]/src/components/junk.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE10 => \"[project]/src/components/recycling.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE11 => \"[project]/src/components/process.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE12 => \"[project]/src/components/phone.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE13 => \"[project]/src/components/rating.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE14 => \"[project]/src/actions/form-server-actions.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      }
+    },
+    "000e731f0cc9509cac4013a95cd77b5481d60a57ab": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/not-found.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/page.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/components/container.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/components/landing.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/components/footer.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/components/services.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE7 => \"[project]/src/components/photos.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE8 => \"[project]/src/components/founders.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE9 => \"[project]/src/components/junk.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE10 => \"[project]/src/components/recycling.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE11 => \"[project]/src/components/process.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE12 => \"[project]/src/components/phone.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE13 => \"[project]/src/components/rating.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE14 => \"[project]/src/actions/form-server-actions.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      }
+    },
+    "00419dd40d6e02d21ea7f6dc730ac79dc1d735ba78": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/not-found.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/page.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/components/container.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/components/landing.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/components/footer.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/components/services.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE7 => \"[project]/src/components/photos.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE8 => \"[project]/src/components/founders.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE9 => \"[project]/src/components/junk.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE10 => \"[project]/src/components/recycling.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE11 => \"[project]/src/components/process.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE12 => \"[project]/src/components/phone.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE13 => \"[project]/src/components/rating.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE14 => \"[project]/src/actions/form-server-actions.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      }
+    },
+    "404558a4be5b94030dc125cb7bfc6fff26af073463": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/not-found.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/page.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/components/container.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/components/landing.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/components/footer.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/components/services.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE7 => \"[project]/src/components/photos.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE8 => \"[project]/src/components/founders.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE9 => \"[project]/src/components/junk.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE10 => \"[project]/src/components/recycling.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE11 => \"[project]/src/components/process.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE12 => \"[project]/src/components/phone.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE13 => \"[project]/src/components/rating.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE14 => \"[project]/src/actions/form-server-actions.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      }
+    },
+    "4090f85008736b4a1959fb00d76f69ebba1acd8bb1": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/not-found.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/page.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/components/container.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/components/landing.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/components/footer.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/components/services.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE7 => \"[project]/src/components/photos.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE8 => \"[project]/src/components/founders.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE9 => \"[project]/src/components/junk.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE10 => \"[project]/src/components/recycling.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE11 => \"[project]/src/components/process.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE12 => \"[project]/src/components/phone.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE13 => \"[project]/src/components/rating.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE14 => \"[project]/src/actions/form-server-actions.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      }
+    },
+    "40e98a945a6a91676fd23260cfeba7eadaf117e990": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/not-found.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/page.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/components/container.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/components/landing.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/components/footer.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/components/services.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE7 => \"[project]/src/components/photos.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE8 => \"[project]/src/components/founders.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE9 => \"[project]/src/components/junk.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE10 => \"[project]/src/components/recycling.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE11 => \"[project]/src/components/process.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE12 => \"[project]/src/components/phone.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE13 => \"[project]/src/components/rating.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE14 => \"[project]/src/actions/form-server-actions.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      }
+    },
+    "007344148c9857db04d0e98c70f41d9327525d8eed": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/not-found.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/page.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/components/container.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/components/landing.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/components/footer.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/components/services.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE7 => \"[project]/src/components/photos.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE8 => \"[project]/src/components/founders.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE9 => \"[project]/src/components/junk.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE10 => \"[project]/src/components/recycling.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE11 => \"[project]/src/components/process.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE12 => \"[project]/src/components/phone.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE13 => \"[project]/src/components/rating.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE14 => \"[project]/src/actions/form-server-actions.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      }
+    },
+    "4098866d3beced42a42f55a37ff498989029e3b25c": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/not-found.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/page.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/components/container.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/components/landing.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/components/footer.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/components/services.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE7 => \"[project]/src/components/photos.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE8 => \"[project]/src/components/founders.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE9 => \"[project]/src/components/junk.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE10 => \"[project]/src/components/recycling.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE11 => \"[project]/src/components/process.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE12 => \"[project]/src/components/phone.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE13 => \"[project]/src/components/rating.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE14 => \"[project]/src/actions/form-server-actions.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    }
+  },
+  "edge": {}
+}

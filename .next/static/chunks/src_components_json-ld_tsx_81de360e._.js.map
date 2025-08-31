@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///C:/Dev/allamericanhaulin-main/src/components/json-ld.tsx"],"sourcesContent":["\"use client\";\r\nimport \"client-only\";\r\nimport { useEffect } from \"react\";\r\n\r\n\r\nexport default function JSONLD({ schemaData }: { schemaData: { [key: string]: unknown } }) {\r\n  useEffect(() => {\r\n    const newJsonLDSript = document.createElement('script');\r\n    newJsonLDSript.type = 'application/ld+json';\r\n    newJsonLDSript.textContent = JSON.stringify(schemaData);\r\n\r\n    const oldJsonLDScript = document.querySelector('script[type=\"application/ld+json\"]');\r\n    if (!!oldJsonLDScript) {\r\n      oldJsonLDScript.remove();\r\n    }\r\n\r\n    document.head.appendChild(newJsonLDSript);\r\n  }, [schemaData]);\r\n\r\n  return null;\r\n}"],"names":[],"mappings":";;;AACA;AACA;;AAFA;;;AAKe,SAAS,OAAO,EAAE,UAAU,EAA8C;;IACvF,CAAA,GAAA,6JAAA,CAAA,YAAS,AAAD;4BAAE;YACR,MAAM,iBAAiB,SAAS,aAAa,CAAC;YAC9C,eAAe,IAAI,GAAG;YACtB,eAAe,WAAW,GAAG,KAAK,SAAS,CAAC;YAE5C,MAAM,kBAAkB,SAAS,aAAa,CAAC;YAC/C,IAAI,CAAC,CAAC,iBAAiB;gBACrB,gBAAgB,MAAM;YACxB;YAEA,SAAS,IAAI,CAAC,WAAW,CAAC;QAC5B;2BAAG;QAAC;KAAW;IAEf,OAAO;AACT;GAfwB;KAAA","debugId":null}}]
+}
