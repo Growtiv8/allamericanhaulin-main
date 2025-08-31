@@ -1,6 +1,6 @@
 "use server";
 import "server-only";
-import { googleAddEvent, googleListEvents } from "@localwebleads/google";
+import { googleAddEvent, googleListEvents } from "@/lib/google";
 import { addMinutes, areIntervalsOverlapping, eachMinuteOfInterval, format, isWeekend } from "date-fns";
 
 
@@ -70,7 +70,7 @@ export async function getAvailableAppointments({ start, end, step }: { start: Da
       clientSecret: GOOGLE_CLIENT_SECRET,
       refreshToken: GOOGLE_CALENDAR_REFRESH_TOKEN,
       calendarId: GOOGLE_USERNAME
-    });
+    }) as Array<{ start: Date; end: Date }>;
 
     const allMeetingSlots = eachMinuteOfInterval({ start: new Date(start), end: new Date(end) }, { step })
       .filter(timeZulu => filterAvailableMeetinSlots(timeZulu))

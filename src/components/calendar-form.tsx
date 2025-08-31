@@ -22,9 +22,9 @@ import {
   subMonths
 } from "date-fns";
 import { MouseEventHandler, useEffect, useRef, useState, ReactNode, useMemo } from "react";
-import { Button, Dialog, Form, Input, Label } from "@localwebleads/html-tags";
+import { Button, Dialog, Form, Input, Label } from "@/lib/html-tags";
 import { twMerge } from "tailwind-merge";
-import { Turnstile } from "@localwebleads/cloudflare";
+import { Turnstile } from "@/lib/cloudflare";
 import { handleCalendarFormSubmit } from "@/actions/form-server-actions";
 import { CheckIcon, XMarkIcon } from "@heroicons/react/24/outline";
 
@@ -224,7 +224,7 @@ export default function CalendarForm({ availableAppointmentsString }: { availabl
     return (zuluDateTime)
   }
 
-  const handlePhoneNumberChange: MouseEventHandler<HTMLInputElement> = (event) => {
+  const handlePhoneNumberChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     event.stopPropagation();
     const oldPhoneNumber = event.currentTarget.value.replace(/-/g, '');
     let newPhonNumber = oldPhoneNumber;

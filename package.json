@@ -11,11 +11,6 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
-    "@localwebleads/cloudflare": "^1.0.0",
-    "@localwebleads/google": "^1.0.0",
-    "@localwebleads/html-tags": "^1.0.0",
-    "@localwebleads/mongodb": "^1.0.0",
-    "@localwebleads/string-methods": "^1.0.0",
     "client-only": "^0.0.1",
     "date-fns": "^4.1.0",
     "jose": "^6.0.11",
@@ -23,6 +18,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "server-only": "^0.0.1",
+    "tailwind-merge": "^2.5.2",
     "uuid": "^11.1.0"
   },
   "devDependencies": {

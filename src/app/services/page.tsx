@@ -1,6 +1,5 @@
 "use server";
 import "server-only";
-import "@localwebleads/string-methods";
 import Link from "next/link";
 import { findData } from "@/dal/mongodb";
 import JSONLD from "@/components/json-ld";
@@ -139,5 +138,3 @@ export default async function Results() {
     </div>
   )
 }
-
-

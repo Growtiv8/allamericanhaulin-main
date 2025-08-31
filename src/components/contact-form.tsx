@@ -2,8 +2,8 @@
 import "client-only";
 import { MouseEventHandler, ReactNode, useEffect, useRef, useState } from "react";
 import { CheckIcon, XMarkIcon } from "@heroicons/react/24/outline";
-import { Turnstile } from "@localwebleads/cloudflare";
-import { Button, Dialog, Form, Input, Label } from "@localwebleads/html-tags";
+import { Turnstile } from "@/lib/cloudflare";
+import { Button, Dialog, Form, Input, Label } from "@/lib/html-tags";
 import { handleContactFormSubmit } from "@/actions/form-server-actions";
 
 
@@ -46,7 +46,7 @@ export default function ContactForm() {
     toggleModal();
   }
 
-  const handlePhoneNumberChange: MouseEventHandler<HTMLInputElement> = (event) => {
+  const handlePhoneNumberChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     event.stopPropagation();
     const oldPhoneNumber = event.currentTarget.value.replace(/-/g, '');
     let newPhonNumber = oldPhoneNumber;

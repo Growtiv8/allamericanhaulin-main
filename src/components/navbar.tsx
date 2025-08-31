@@ -5,7 +5,7 @@ import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { MouseEventHandler, ReactNode, useRef } from "react";
 import { twMerge } from "tailwind-merge";
-import { Dialog } from "@localwebleads/html-tags";
+import { Dialog } from "@/lib/html-tags";
 import { phoneNumber } from "@/constants/contact-info";
 
 

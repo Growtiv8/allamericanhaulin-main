@@ -1,6 +1,6 @@
 "use server";
 import "server-only";
-import "@localwebleads/string-methods";
+import "@/lib/string-methods";
 import Founders from "@/components/founders";
 import { officeAddress } from "@/constants/contact-info";
 import Reviews from "@/components/reviews";

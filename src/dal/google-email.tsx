@@ -1,6 +1,6 @@
 "use server";
 import "server-only";
-import { googleEmail } from "@localwebleads/google";
+import { googleEmail } from "@/lib/google";
 
 
 export async function sendEmail({ to, subject, data }: { to?: string, subject: string, data: { firstName?: string, lastName?: string, email?: string, phone?: string, organization?: string, city?: string, state?: string, message?: string, passcode?: string } }) {
@@ -23,6 +23,3 @@ export async function sendEmail({ to, subject, data }: { to?: string, subject: s
     }
   }
 }
-
-
-

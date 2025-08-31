@@ -1,0 +1,389 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    },
+    {
+      "source": "/citrus-heights/:path*",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/citrus-heights(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$"
+    },
+    {
+      "source": "/fair-oaks/:path*",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/fair-oaks(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$"
+    },
+    {
+      "source": "/carmichael/:path*",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/carmichael(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$"
+    },
+    {
+      "source": "/roseville/:path*",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/roseville(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$"
+    },
+    {
+      "source": "/orangevale/:path*",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/orangevale(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$"
+    },
+    {
+      "source": "/antelope/:path*",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/antelope(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$"
+    },
+    {
+      "source": "/north-highlands/:path*",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/north-highlands(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$"
+    },
+    {
+      "source": "/foothill-farms/:path*",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/foothill-farms(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$"
+    },
+    {
+      "source": "/la-riviera/:path*",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/la-riviera(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$"
+    },
+    {
+      "source": "/west-sacramento/:path*",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/west-sacramento(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$"
+    },
+    {
+      "source": "/granite-bay/:path*",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/granite-bay(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$"
+    },
+    {
+      "source": "/arden-arcade/:path*",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/arden-arcade(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$"
+    },
+    {
+      "source": "/mcclellan-park/:path*",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/mcclellan-park(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$"
+    },
+    {
+      "source": "/sacramento/:path*",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/sacramento(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$"
+    },
+    {
+      "source": "/folsom/:path*",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/folsom(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$"
+    },
+    {
+      "source": "/rocklin/:path*",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/rocklin(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$"
+    },
+    {
+      "source": "/rio-linda/:path*",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/rio-linda(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$"
+    },
+    {
+      "source": "/rancho-cordova/:path*",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/rancho-cordova(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$"
+    },
+    {
+      "source": "/gold-river/:path*",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/gold-river(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$"
+    },
+    {
+      "source": "/feed/",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/feed/(?:/)?$"
+    },
+    {
+      "source": "/hot-tub-removal.php",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/hot-tub-removal\\.php(?:/)?$"
+    },
+    {
+      "source": "/index.php",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/index\\.php(?:/)?$"
+    },
+    {
+      "source": "/services.php",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/services\\.php(?:/)?$"
+    },
+    {
+      "source": "/contact-us.php",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/contact-us\\.php(?:/)?$"
+    },
+    {
+      "source": "/cdn-cgi/l/email-protection",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/cdn-cgi/l/email-protection(?:/)?$"
+    },
+    {
+      "source": "/feed",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/feed(?:/)?$"
+    },
+    {
+      "source": "/location",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/location(?:/)?$"
+    },
+    {
+      "source": "/shed-removal",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/shed-removal(?:/)?$"
+    },
+    {
+      "source": "/contact-us",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/contact-us(?:/)?$"
+    },
+    {
+      "source": "/about-us",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/about-us(?:/)?$"
+    },
+    {
+      "source": "/property-cleanout",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/property-cleanout(?:/)?$"
+    },
+    {
+      "source": "/hoarder-cleanouts",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/hoarder-cleanouts(?:/)?$"
+    },
+    {
+      "source": "/hot-tub-removal",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/hot-tub-removal(?:/)?$"
+    },
+    {
+      "source": "/about-us.php",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/about-us\\.php(?:/)?$"
+    },
+    {
+      "source": "/cleanouts.php",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/cleanouts\\.php(?:/)?$"
+    },
+    {
+      "source": "/junk-removal.php",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/junk-removal\\.php(?:/)?$"
+    },
+    {
+      "source": "/shed-removal.php",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/shed-removal\\.php(?:/)?$"
+    },
+    {
+      "source": "/hot-tub-removal.php",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/hot-tub-removal\\.php(?:/)?$"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/:path*",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "https://allamericanhaulin.com"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, POST, OPTIONS"
+        }
+      ],
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$"
+    }
+  ],
+  "dynamicRoutes": [
+    {
+      "page": "/blog/[postId]",
+      "regex": "^/blog/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPpostId": "nxtPpostId"
+      },
+      "namedRegex": "^/blog/(?<nxtPpostId>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/service-areas/[serviceAreaId]",
+      "regex": "^/service\\-areas/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPserviceAreaId": "nxtPserviceAreaId"
+      },
+      "namedRegex": "^/service\\-areas/(?<nxtPserviceAreaId>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/services/[serviceId]",
+      "regex": "^/services/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPserviceId": "nxtPserviceId"
+      },
+      "namedRegex": "^/services/(?<nxtPserviceId>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/about",
+      "regex": "^/about(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about(?:/)?$"
+    },
+    {
+      "page": "/ads",
+      "regex": "^/ads(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/ads(?:/)?$"
+    },
+    {
+      "page": "/blog",
+      "regex": "^/blog(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog(?:/)?$"
+    },
+    {
+      "page": "/contact",
+      "regex": "^/contact(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contact(?:/)?$"
+    },
+    {
+      "page": "/cookie-policy",
+      "regex": "^/cookie\\-policy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/cookie\\-policy(?:/)?$"
+    },
+    {
+      "page": "/icon.svg",
+      "regex": "^/icon\\.svg(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/icon\\.svg(?:/)?$"
+    },
+    {
+      "page": "/privacy-policy",
+      "regex": "^/privacy\\-policy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/privacy\\-policy(?:/)?$"
+    },
+    {
+      "page": "/robots.txt",
+      "regex": "^/robots\\.txt(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/robots\\.txt(?:/)?$"
+    },
+    {
+      "page": "/service-areas",
+      "regex": "^/service\\-areas(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/service\\-areas(?:/)?$"
+    },
+    {
+      "page": "/services",
+      "regex": "^/services(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services(?:/)?$"
+    },
+    {
+      "page": "/sitemap.xml",
+      "regex": "^/sitemap\\.xml(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sitemap\\.xml(?:/)?$"
+    },
+    {
+      "page": "/terms-of-service",
+      "regex": "^/terms\\-of\\-service(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/terms\\-of\\-service(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "RSC",
+    "varyHeader": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch",
+    "prefetchHeader": "Next-Router-Prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "Next-Router-Segment-Prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  },
+  "rewrites": []
+}

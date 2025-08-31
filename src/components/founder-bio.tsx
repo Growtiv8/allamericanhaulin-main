@@ -1,7 +1,7 @@
 "use client";
 import "client-only";
 import { XMarkIcon } from "@heroicons/react/24/outline";
-import { Dialog } from "@localwebleads/html-tags";
+import { Dialog } from "@/lib/html-tags";
 import Image from "next/image";
 import { MouseEventHandler, useRef } from "react";
 import Link from "next/link";

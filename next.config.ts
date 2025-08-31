@@ -2,6 +2,9 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   basePath: "",
+  eslint: {
+    ignoreDuringBuilds: false,
+  },
   experimental: {
     serverActions: {
       bodySizeLimit: "2mb"

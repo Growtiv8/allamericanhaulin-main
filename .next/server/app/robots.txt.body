@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: /api/
+Disallow: /fonts/
+
+Sitemap: https://allamericanhaulin.com/sitemap.xml

@@ -7,6 +7,7 @@ interface LeadTrackerProps {
   page?: string;
 }
 
+
 /**
  * Lead Tracker Component
  * Tracks user interactions and page visits for Go High Level integration
@@ -44,14 +45,8 @@ export default function LeadTracker({ source = 'Website', page }: LeadTrackerPro
         
         localStorage.setItem('ghl_visits', JSON.stringify(existingVisits));
 
-        // Track with Google Analytics if available
-        if (typeof window !== 'undefined' && window.gtag) {
-          window.gtag('event', 'page_view', {
-            page_title: document.title,
-            page_location: window.location.href,
-            custom_parameter_source: source
-          });
-        }
+        // Google Analytics tracking would go here
+        console.log('Page view tracked:', { source, page: page || window.location.pathname });
 
       } catch (error) {
         console.error('Error tracking page visit:', error);
@@ -74,13 +69,7 @@ export default function LeadTracker({ source = 'Website', page }: LeadTrackerPro
         
         // Track significant scroll milestones
         if ([25, 50, 75, 90].includes(scrollPercent)) {
-          if (typeof window !== 'undefined' && window.gtag) {
-            window.gtag('event', 'scroll', {
-              event_category: 'engagement',
-              event_label: `${scrollPercent}%`,
-              value: scrollPercent
-            });
-          }
+          console.log('Scroll milestone:', `${scrollPercent}%`);
         }
       }
     };
@@ -98,12 +87,7 @@ export default function LeadTracker({ source = 'Website', page }: LeadTrackerPro
       
       // Track significant time milestones
       if ([30, 60, 120, 300].includes(timeSpent)) {
-        if (typeof window !== 'undefined' && window.gtag) {
-          window.gtag('event', 'timing_complete', {
-            name: 'time_on_page',
-            value: timeSpent
-          });
-        }
+        console.log('Time milestone:', `${timeSpent}s`);
       }
     };
 
@@ -131,8 +115,8 @@ export function getVisitorTrackingData() {
       totalVisits: visits.length,
       firstVisit: visits[0]?.timestamp,
       lastVisit: visits[visits.length - 1]?.timestamp,
-      sources: [...new Set(visits.map((v: any) => v.source))],
-      pages: [...new Set(visits.map((v: any) => v.page))]
+      sources: [...new Set(visits.map((v: { source: string }) => v.source))],
+      pages: [...new Set(visits.map((v: { page: string }) => v.page))]
     };
   } catch (error) {
     console.error('Error getting visitor tracking data:', error);
@@ -143,15 +127,10 @@ export function getVisitorTrackingData() {
 /**
  * Utility function to track custom events
  */
-export function trackCustomEvent(eventName: string, eventData: Record<string, any> = {}) {
+export function trackCustomEvent(eventName: string, eventData: Record<string, unknown> = {}) {
   try {
-    // Track with Google Analytics if available
-    if (typeof window !== 'undefined' && window.gtag) {
-      window.gtag('event', eventName, {
-        event_category: 'custom',
-        ...eventData
-      });
-    }
+    // Google Analytics tracking would go here
+    console.log('Custom event tracked:', eventName, eventData);
 
     // Store custom event for potential lead creation
     const customEvents = JSON.parse(localStorage.getItem('ghl_custom_events') || '[]');

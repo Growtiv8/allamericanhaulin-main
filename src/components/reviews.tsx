@@ -1,7 +1,7 @@
 "use client";
 import "client-only";
 import { ChevronLeftIcon, ChevronRightIcon, StarIcon } from "@heroicons/react/24/outline";
-import { Button } from "@localwebleads/html-tags";
+import { Button } from "@/lib/html-tags";
 import { useState } from "react";
 
 
