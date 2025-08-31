@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@import "./dialog.css";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@source "../../node_modules/@localwebleads/**/*";
